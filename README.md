@@ -7,7 +7,7 @@
 <p align="center">
   <a href="https://github.com/ishandutta2007/Awesome-Awesome-Awesome"><img src="https://img.shields.io/badge/Awesome-%E2%9C%94-blueviolet?style=flat-square&logo=github" alt="Awesome"/></a>
   <a href="https://discord.gg/jc4xtF58Ve"><img src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord" /></a>
-  <a href="https://github.com/ishandutta2007/Awesome-Relational-Database-Cloud-Backup/stargazers"><img src="https://img.shields.io/github/stars/ishandutta2007/Awesome-Relational-Database-Cloud-Backup?style=flat-square&logo=github" alt="GitHub Stars" /></a>
+  <a href="https://github.com/ishandutta2007/Awesome-Relational-Database-Cloud-Backup/stargazers"><img src="https://img.shields.io/github/stars/ishandutta2007/Awesome-Relational-Database-Cloud-Backup?style=flat-square&logo=github" alt="GitHub_Stars" /></a>
   <a href="https://github.com/ishandutta2007/Awesome-Relational-Database-Cloud-Backup/network/members"><img src="https://img.shields.io/github/forks/ishandutta2007/Awesome-Relational-Database-Cloud-Backup?style=flat-square&logo=github" alt="GitHub Forks" /></a>
   <a href="https://github.com/ishandutta2007/Awesome-Relational-Database-Cloud-Backup/blob/main/LICENSE"><img src="https://img.shields.io/badge/License-CC0_1.0-lightgrey.svg?style=flat-square" alt="License: CC0 1.0" /></a>
   <a href="https://github.com/ishandutta2007"><img alt="GitHub followers" src="https://img.shields.io/github/followers/ishandutta2007?label=Follow" /></a>
@@ -74,10 +74,10 @@ Below is an overview of leading commercial SaaS and enterprise data protection p
 
 ## 💻 Open-Source Database Backup Solutions
 
-The open-source ecosystem offers powerful options ranging from versatile full-stack multi-database managers to engine-specific continuous archiving and hot-backup tools. The tools below are ordered in **descending order by GitHub star count**:
+The open-source ecosystem offers powerful options ranging from versatile full-stack multi-database managers to engine-specific continuous archiving and hot-backup tools. The tools below are ordered in **descending order by GitHub Stars_Count**:
 
 ### 1. 📦 [Backup](https://github.com/backup/backup)
-[![GitHub stars](https://img.shields.io/github/stars/backup/backup?style=social&color=white)](https://github.com/backup/backup/stargazers)
+[![GitHub_Stars](https://img.shields.io/github/stars/backup/backup?style=social&color=white)](https://github.com/backup/backup/stargazers)
 * **GitHub Repository:** [backup/backup](https://github.com/backup/backup)
 * **Tech Stack:** Ruby / CLI
 * **License:** MIT License
@@ -88,7 +88,7 @@ The open-source ecosystem offers powerful options ranging from versatile full-st
 ---
 
 ### 2. 🐘 [pgBackRest](https://github.com/pgbackrest/pgbackrest)
-[![GitHub stars](https://img.shields.io/github/stars/pgbackrest/pgbackrest?style=social&color=white)](https://github.com/pgbackrest/pgbackrest/stargazers)
+[![GitHub_Stars](https://img.shields.io/github/stars/pgbackrest/pgbackrest?style=social&color=white)](https://github.com/pgbackrest/pgbackrest/stargazers)
 * **GitHub Repository:** [pgbackrest/pgbackrest](https://github.com/pgbackrest/pgbackrest)
 * **Tech Stack:** C
 * **License:** MIT License
@@ -99,7 +99,7 @@ The open-source ecosystem offers powerful options ranging from versatile full-st
 ---
 
 ### 3. 🚀 [WAL-G](https://github.com/wal-g/wal-g)
-[![GitHub stars](https://img.shields.io/github/stars/wal-g/wal-g?style=social&color=white)](https://github.com/wal-g/wal-g/stargazers)
+[![GitHub_Stars](https://img.shields.io/github/stars/wal-g/wal-g?style=social&color=white)](https://github.com/wal-g/wal-g/stargazers)
 * **GitHub Repository:** [wal-g/wal-g](https://github.com/wal-g/wal-g)
 * **Tech Stack:** Go
 * **License:** Apache-2.0 License
@@ -110,7 +110,7 @@ The open-source ecosystem offers powerful options ranging from versatile full-st
 ---
 
 ### 4. 🍸 [Barman](https://github.com/EnterpriseDB/barman)
-[![GitHub stars](https://img.shields.io/github/stars/EnterpriseDB/barman?style=social&color=white)](https://github.com/EnterpriseDB/barman/stargazers)
+[![GitHub_Stars](https://img.shields.io/github/stars/EnterpriseDB/barman?style=social&color=white)](https://github.com/EnterpriseDB/barman/stargazers)
 * **GitHub Repository:** [EnterpriseDB/barman](https://github.com/EnterpriseDB/barman)
 * **Tech Stack:** Python
 * **License:** GNU GPL v3.0
@@ -121,7 +121,7 @@ The open-source ecosystem offers powerful options ranging from versatile full-st
 ---
 
 ### 5. ⚡ [MyDumper](https://github.com/mydumper/mydumper)
-[![GitHub stars](https://img.shields.io/github/stars/mydumper/mydumper?style=social&color=white)](https://github.com/mydumper/mydumper/stargazers)
+[![GitHub_Stars](https://img.shields.io/github/stars/mydumper/mydumper?style=social&color=white)](https://github.com/mydumper/mydumper/stargazers)
 * **GitHub Repository:** [mydumper/mydumper](https://github.com/mydumper/mydumper)
 * **Tech Stack:** C / CMake
 * **License:** GNU GPL v3.0
@@ -132,7 +132,7 @@ The open-source ecosystem offers powerful options ranging from versatile full-st
 ---
 
 ### 6. 🚪 [Portabase](https://github.com/Portabase/portabase)
-[![GitHub stars](https://img.shields.io/github/stars/Portabase/portabase?style=social&color=white)](https://github.com/Portabase/portabase/stargazers)
+[![GitHub_Stars](https://img.shields.io/github/stars/Portabase/portabase?style=social&color=white)](https://github.com/Portabase/portabase/stargazers)
 * **GitHub Repository:** [Portabase/portabase](https://github.com/Portabase/portabase)
 * **Tech Stack:** TypeScript / Docker / Go / CLI
 * **License:** AGPL-3.0 License (French Non-Profit Association)
@@ -143,7 +143,7 @@ The open-source ecosystem offers powerful options ranging from versatile full-st
 ---
 
 ### 7. 🛠️ [Percona XtraBackup](https://github.com/percona/percona-xtrabackup)
-[![GitHub stars](https://img.shields.io/github/stars/percona/percona-xtrabackup?style=social&color=white)](https://github.com/percona/percona-xtrabackup/stargazers)
+[![GitHub_Stars](https://img.shields.io/github/stars/percona/percona-xtrabackup?style=social&color=white)](https://github.com/percona/percona-xtrabackup/stargazers)
 * **GitHub Repository:** [percona/percona-xtrabackup](https://github.com/percona/percona-xtrabackup)
 * **Tech Stack:** C / C++
 * **License:** GNU GPL v2.0
@@ -154,7 +154,7 @@ The open-source ecosystem offers powerful options ranging from versatile full-st
 ---
 
 ### 8. 🐳 [Docker PostgreSQL Backup Local](https://github.com/prodrigestivill/docker-postgres-backup-local)
-[![GitHub stars](https://img.shields.io/github/stars/prodrigestivill/docker-postgres-backup-local?style=social&color=white)](https://github.com/prodrigestivill/docker-postgres-backup-local/stargazers)
+[![GitHub_Stars](https://img.shields.io/github/stars/prodrigestivill/docker-postgres-backup-local?style=social&color=white)](https://github.com/prodrigestivill/docker-postgres-backup-local/stargazers)
 * **GitHub Repository:** [prodrigestivill/docker-postgres-backup-local](https://github.com/prodrigestivill/docker-postgres-backup-local)
 * **Tech Stack:** Shell / Docker
 * **License:** MIT License
@@ -165,7 +165,7 @@ The open-source ecosystem offers powerful options ranging from versatile full-st
 ---
 
 ### 9. 🦭 [Mariabackup](https://mariadb.com/kb/en/mariabackup-overview/)
-[![GitHub stars](https://img.shields.io/github/stars/MariaDB/mariadb-docker?style=social&color=white)](https://github.com/MariaDB/mariadb-docker/stargazers)
+[![GitHub_Stars](https://img.shields.io/github/stars/MariaDB/mariadb-docker?style=social&color=white)](https://github.com/MariaDB/mariadb-docker/stargazers)
 * **Upstream Project:** [MariaDB/server](https://github.com/MariaDB/server) (Container reference: [MariaDB/mariadb-docker](https://github.com/MariaDB/mariadb-docker))
 * **Tech Stack:** C / C++
 * **License:** GNU GPL v2.0
@@ -176,7 +176,7 @@ The open-source ecosystem offers powerful options ranging from versatile full-st
 ---
 
 ### 10. 🔒 [DBackup](https://github.com/Skyfay/DBackup)
-[![GitHub stars](https://img.shields.io/github/stars/Skyfay/DBackup?style=social&color=white)](https://github.com/Skyfay/DBackup/stargazers)
+[![GitHub_Stars](https://img.shields.io/github/stars/Skyfay/DBackup?style=social&color=white)](https://github.com/Skyfay/DBackup/stargazers)
 * **GitHub Repository:** [Skyfay/DBackup](https://github.com/Skyfay/DBackup)
 * **Tech Stack:** Node.js / Docker / Web UI
 * **License:** MIT License
@@ -187,7 +187,7 @@ The open-source ecosystem offers powerful options ranging from versatile full-st
 ---
 
 ### 11. 🇳🇱 [Holland Backup](https://github.com/holland-backup/holland)
-[![GitHub stars](https://img.shields.io/github/stars/holland-backup/holland?style=social&color=white)](https://github.com/holland-backup/holland/stargazers)
+[![GitHub_Stars](https://img.shields.io/github/stars/holland-backup/holland?style=social&color=white)](https://github.com/holland-backup/holland/stargazers)
 * **GitHub Repository:** [holland-backup/holland](https://github.com/holland-backup/holland)
 * **Tech Stack:** Python
 * **License:** BSD-3-Clause
@@ -247,7 +247,7 @@ Contributions, issues, and feature suggestions are warmly welcomed!
 If you know of an enterprise SaaS platform or open-source relational database backup utility that should be featured in this list:
 1. Fork the repository.
 2. Create a new descriptive branch (`git checkout -b feature/add-new-tool`).
-3. Add the project details with accurate licensing, supported relational engines, star counts, and target storage.
+3. Add the project details with accurate licensing, supported relational engines, Stars_Counts, and target storage.
 4. Open a well-documented Pull Request.
 
 Please ensure any project submitted is actively maintained with valid licensing and active release cycles within the past 12 months.
