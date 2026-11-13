@@ -74,7 +74,7 @@ Below is an overview of leading commercial SaaS and enterprise data protection p
 
 ## 💻 Open-Source Database Backup Solutions
 
-The open-source ecosystem offers powerful options ranging from versatile full-stack multi-database managers to engine-specific continuous archiving and hot-backup tools. The tools below are ordered in **descending order by GitHub Stars_Count**:
+The open-source ecosystem offers powerful options ranging from versatile full-stack multi-database managers to engine-specific continuous archiving and hot-backup tools. The tools below are ordered in **descending order by GitHub_Stars_Count**:
 
 ### 1. 📦 [Backup](https://github.com/backup/backup)
 [![GitHub_Stars](https://img.shields.io/github/stars/backup/backup?style=social&color=white)](https://github.com/backup/backup/stargazers)
