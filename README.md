@@ -1,134 +1,259 @@
-# Awesome-Relational-Database-Cloud-Backup
+<div align="center">
 
-# Awesome Relational Database Cloud Backup
+<img src="./assets/banner.svg" alt="Awesome Relational Database Cloud Backup Banner" width="100%" />
 
-> A curated list of top Relational Database Cloud Backup platforms — both SaaS/Hosted commercial enterprise data protection solutions and open-source alternatives for backing up SQL Server, Oracle, PostgreSQL, MySQL, and other relational databases to the cloud.
-> 🌟 Star this repo if you find it useful! 🌟
+# 🛡️ Awesome Relational Database Cloud Backup ☁️
 
----
+<p align="center">
+  <a href="https://github.com/ishandutta2007/Awesome-Awesome-Awesome"><img src="https://img.shields.io/badge/Awesome-%E2%9C%94-blueviolet?style=flat-square&logo=github" alt="Awesome"/></a>
+  <a href="https://discord.gg/jc4xtF58Ve"><img src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord" /></a>
+  <a href="https://github.com/ishandutta2007/Awesome-Relational-Database-Cloud-Backup/stargazers"><img src="https://img.shields.io/github/stars/ishandutta2007/Awesome-Relational-Database-Cloud-Backup?style=flat-square&logo=github" alt="GitHub Stars" /></a>
+  <a href="https://github.com/ishandutta2007/Awesome-Relational-Database-Cloud-Backup/network/members"><img src="https://img.shields.io/github/forks/ishandutta2007/Awesome-Relational-Database-Cloud-Backup?style=flat-square&logo=github" alt="GitHub Forks" /></a>
+  <a href="https://github.com/ishandutta2007/Awesome-Relational-Database-Cloud-Backup/blob/main/LICENSE"><img src="https://img.shields.io/badge/License-CC0_1.0-lightgrey.svg?style=flat-square" alt="License: CC0 1.0" /></a>
+  <a href="https://github.com/ishandutta2007"><img alt="GitHub followers" src="https://img.shields.io/github/followers/ishandutta2007?label=Follow" /></a>
+</p>
 
-## 📋 Table of Contents
+<p align="center">
+  <strong>A curated directory of enterprise SaaS cloud backup platforms and battle-tested open-source solutions for relational database management systems (RDBMS) — including PostgreSQL, MySQL, MariaDB, Oracle Database, and Microsoft SQL Server.</strong>
+</p>
 
-- [SaaS / Hosted Platforms](#-saas--hosted-platforms)
-  - [Druva Database Backup](#druva-database-backup)
-  - [Veeam Backup & Replication](#veeam-backup--replication)
-  - [Commvault Database Backup](#commvault-database-backup)
-  - [Cohesity Database Protection](#cohesity-database-protection)
-  - [Rubrik Database Protection](#rubrik-database-protection)
-  - [Bacula Enterprise](#bacula-enterprise)
-- [Open-Source Software](#-open-source-software)
-  - [DBackup](#dbackup)
-  - [Portabase](#portabase)
-  - [pgBackRest](#pgbackrest)
-  - [Barman](#barman)
-  - [Holland Backup](#holland-backup)
-  - [Percona XtraBackup](#percona-xtrabackup)
-  - [mariabackup](#mariabackup)
-- [Comparison at a Glance](#-comparison-at-a-glance)
-- [Contributing](#-contributing)
+<p align="center">
+  ⭐ <strong>Star this repository if you find it valuable!</strong> ⭐
+</p>
+
+</div>
 
 ---
 
-## 🟦 SaaS / Hosted Platforms
+## 📑 Table of Contents
 
-Commercial, cloud-hosted Relational Database Backup platforms. These are not open-source but are included as reference points for feature comparison.
-
-### Druva Database Backup
-**Type:** SaaS data protection with MS-SQL and SAP HANA support
-Druva provides cloud-native backup for Microsoft SQL Server databases, supporting Full, Differential, and Transaction Log backups with configurable schedules and retention policies [citation:1]. Log backups can be scheduled at intervals from 5 to 120 minutes, with retention handled separately from weekly/monthly/yearly policies [citation:1]. Druva also supports SAP HANA backup with full, delta, incremental, differential, log, and catalog backups, allowing continued use of native HANA tools for restore [citation:9]. The platform is fully managed SaaS, eliminating infrastructure overhead.
-
-### Veeam Backup & Replication
-**Type:** Enterprise backup with application-consistent database protection
-Veeam provides application-consistent backups for Microsoft SQL Server, PostgreSQL, and Oracle Database natively, alongside support for Azure SQL databases and Azure Cosmos DB accounts [citation:2]. Dedicated Veeam Plug-Ins deliver transactionally-consistent database-level backups for Oracle RMAN (Oracle-certified), SAP HANA (SAP-certified), Microsoft SQL Server, IBM Db2, SAP MaxDB, and MongoDB replica sets [citation:10]. This makes Veeam one of the most comprehensive commercial options for heterogeneous database environments.
-
-### Commvault Database Backup
-**Type:** Enterprise data protection with 50+ database support
-Commvault supports over 50 databases including Microsoft SQL Server, Oracle, SAP HANA, MongoDB, Cassandra, CockroachDB, Apache Iceberg, and cloud databases like AWS RDS and GCP Cloud SQL [citation:3]. The platform emphasizes cyber recovery capabilities alongside traditional backup, with IntelliSnap and oplog-based incremental backups for MongoDB [citation:3]. Commvault Cloud also extends to Azure Database workloads including Azure SQL, MySQL, MariaDB, PostgreSQL, and Cosmos DB [citation:11].
-
-### Cohesity Database Protection
-**Type:** Unified data security with database-native integration
-Cohesity provides database protection for Oracle (web-scale Oracle-certified), Microsoft SQL Server (native integration), MongoDB, Cassandra, Hadoop, and SAP [citation:4]. The platform emphasizes instant recovery at scale and unified data security management, positioning database backup as part of a broader cyber-resilient data platform.
-
-### Rubrik Database Protection
-**Type:** Vendor-agnostic physical and virtual database protection
-Rubrik supports Oracle (standalone, RAC, and ASM configurations), Microsoft SQL Server, MySQL, PostgreSQL, SAP HANA, MongoDB, and Cassandra through its Elastic App Service [citation:5]. The platform allows database administrators to leverage preferred management tools while providing backup and recovery through VSS integration for Windows-based databases [citation:5]. Rubrik emphasizes vendor-agnostic protection across operating systems, databases, hypervisors, clouds, and SaaS applications.
-
-### Bacula Enterprise
-**Type:** Enterprise open-source backup with dedicated database plugins
-Bacula Enterprise provides dedicated plugins for MySQL (Dump and Binary mode with Point-in-Time Recovery), PostgreSQL (hot backup with WAL files), MS SQL (full and differential via VSS), and Oracle (block-level with RMAN SBT API) [citation:7][citation:15]. The MySQL plugin supports Percona XtraBackup for hot backups and Mariabackup for MariaDB 10.1+ [citation:15]. While the core is open-source, database plugins are commercial Enterprise features.
+- [📊 Sector Overview & Market Dynamics](#-sector-overview--market-dynamics)
+- [🏢 SaaS & Hosted Commercial Platforms](#-saas--hosted-commercial-platforms)
+- [💻 Open-Source Database Backup Solutions](#-open-source-database-backup-solutions)
+  - [1. 📦 Backup](#1--backup)
+  - [2. 🐘 pgBackRest](#2--pgbackrest)
+  - [3. 🚀 WAL-G](#3--wal-g)
+  - [4. 🍸 Barman](#4--barman)
+  - [5. ⚡ MyDumper](#5--mydumper)
+  - [6. 🚪 Portabase](#6--portabase)
+  - [7. 🛠️ Percona XtraBackup](#7-️-percona-xtrabackup)
+  - [8. 🐳 Docker PostgreSQL Backup Local](#8--docker-postgresql-backup-local)
+  - [9. 🦭 Mariabackup](#9--mariabackup)
+  - [10. 🔒 DBackup](#10--dbackup)
+  - [11. 🇳🇱 Holland Backup](#11--holland-backup)
+- [🔍 Comprehensive Comparison Matrix](#-comprehensive-comparison-matrix)
+- [💖 Support & Sponsorship](#-support--sponsorship)
+- [📈 Star History](#-star-history)
+- [🤝 Contributing](#-contributing)
+- [📄 License](#-license)
 
 ---
 
-## 🟩 Open-Source Software
+## 📊 Sector Overview & Market Dynamics
 
-Self-hosted, community-driven Relational Database Backup tools. The open-source ecosystem spans **full database backup automation platforms**, **PostgreSQL-specific backup solutions**, **MySQL/MariaDB hot backup tools**, and **lightweight self-hosted managers**.
+The global cloud backup and relational database disaster recovery market is estimated at approximately **$14.5 billion in 2024–2025** and is projected to surpass **$35 billion by 2030**, expanding at a robust CAGR of ~15–18% driven by exponential data explosion, stringent data governance mandates (GDPR, HIPAA, SOC 2), and escalating ransomware threats against critical stateful database workloads.
 
-### DBackup
-**Stack:** Node.js / Docker / S3-compatible storage | **License:** Open Source (GitHub)
-DBackup is a self-hosted database backup automation tool with a modern Web UI, supporting PostgreSQL (12-18), MySQL (5.7-9.x), MariaDB (10.x-11.x), MongoDB (4.x-8.x), Redis, Valkey, SQLite, Microsoft SQL Server (2017-2022, Azure SQL Edge), Azure SQL Database (beta), and Firebird (beta) [citation:6]. Key features include **RBAC with granular permissions**, **2FA/Passkeys**, an **encrypted credential vault** for SSH keys and API tokens, configurable rate limits, a **REST API** for automation, and **Docker-ready multi-arch images** (AMD64/ARM64) [citation:6]. Backups can be stored to S3, FTP, or local storage with cron scheduling and notifications.
-**Best for:** Teams wanting a modern, self-hosted backup manager covering multiple relational and NoSQL databases with strong security features and Docker deployment.
-
-### Portabase
-**Stack:** Self-hosted (Docker/Kubernetes/CLI) | **License:** Open Source (non-profit)
-Portabase is an open-source, self-hosted tool for automating database backups and on-demand restores, supporting PostgreSQL, MySQL, MariaDB, MongoDB, Redis, Valkey, SQLite, Firebird, MSSQL Server, and Docker Volumes [citation:14]. Key features include **AES-GCM encryption**, **GFS retention policies** (hourly/daily/weekly/monthly/yearly), backup scheduling via cron, **REST API and MCP server** for automation, and notifications via email, Slack, Discord, Telegram, and webhooks [citation:14]. The dashboard does not contact agents directly, so deployments do not need inbound ports opened where databases reside [citation:14]. Storage options include S3-compatible services, Google Drive, Azure Blob, SFTP, and Rclone backends. Governed by a French non-profit association [citation:14].
-**Best for:** Organizations wanting a French-governed, self-hosted backup platform with broad database coverage, encryption, and strong automation capabilities.
-
-### pgBackRest
-**Stack:** C / PostgreSQL | **License:** Open Source
-pgBackRest is a backup and restore solution for PostgreSQL designed to scale to large databases and workloads [citation:14]. It is the de facto standard for PostgreSQL-specific backup in production environments, supporting full, differential, and incremental backups, parallel processing, compression, encryption, and cloud storage backends (S3, GCS, Azure). Its maturity and performance make it the first choice for PostgreSQL-only environments.
-
-### Barman
-**Stack:** Python / PostgreSQL | **License:** Open Source
-Barman (Backup and Recovery Manager) is an open-source administration tool for disaster recovery of PostgreSQL servers, written in Python. It supports remote backups of multiple servers, retention policies, WAL archiving, and point-in-time recovery. Barman is maintained by EnterpriseDB and is widely deployed in PostgreSQL-centric organizations.
-
-### Holland Backup
-**Stack:** Python | **License:** Open Source
-Holland is an open-source backup framework originally developed by Rackspace, focused on backing up databases [citation:14]. It provides a pluggable architecture for MySQL, PostgreSQL, and other data sources, with support for various backup methods and storage backends. Holland is positioned for organizations wanting a flexible, extensible Python-based backup framework.
-
-### Percona XtraBackup
-**Stack:** C++ | **License:** GPL-2.0
-Percona XtraBackup is an open-source hot backup utility for MySQL-based servers that does not lock the database during backup [citation:15]. It supports InnoDB, XtraDB, and MyISAM tables on MySQL and Percona Server, ensuring consistency of the whole backup. It is the industry standard for MySQL hot backups and is used by many managed database services.
-
-### mariabackup
-**Stack:** C | **License:** GPL-2.0
-mariabackup is the recommended backup tool for MariaDB 10.1 and above, included with MariaDB distributions [citation:15]. It is a fork of Percona XtraBackup adapted for MariaDB, providing hot backup capabilities with support for InnoDB and other storage engines. It is the native choice for MariaDB-specific backup workflows.
+The market structure is **moderately fragmented across tiers but concentrated at the enterprise summit**, where a dominant cohort of incumbent giants and pure-play cybersecurity/data resilience platforms (such as Veeam, Commvault, Rubrik, Cohesity, and Druva) command the bulk of enterprise IT budgets through proprietary deduplication, zero-trust air-gapped vaults, and certified application plugins. Concurrently, high-velocity mid-market startups and database-native open-source utilities (like pgBackRest, WAL-G, and Portabase) capture significant developer adoption and infrastructure-as-code automation workflows, preventing a monolithic winner-take-all monopoly across the entire stack.
 
 ---
 
-## 📊 Comparison at a Glance
+## 🏢 SaaS & Hosted Commercial Platforms
 
-| Software | License | Stack | SQL Server | Oracle | PostgreSQL | MySQL/MariaDB | Self-Hosted | Best For |
-|----------|---------|-------|------------|--------|------------|---------------|-------------|----------|
-| **Druva** | Proprietary | Cloud | ✅ | (SAP HANA) | ❌ | ❌ | ❌ | Managed SaaS SQL + HANA |
-| **Veeam** | Proprietary | Cloud/On-prem | ✅ | ✅ RMAN | ✅ | (Plug-ins) | (On-prem) | Broadest database coverage |
-| **Commvault** | Proprietary | Cloud/On-prem | ✅ | ✅ | ✅ | ✅ | (On-prem) | 50+ databases + cloud |
-| **Cohesity** | Proprietary | Cloud/Appliance | ✅ | ✅ | ❌ | ❌ | (Appliance) | Unified data security |
-| **Rubrik** | Proprietary | Cloud/Appliance | ✅ | ✅ | ✅ | ✅ | (Appliance) | Vendor-agnostic + VSS |
-| **Bacula Ent.** | Commercial | On-prem | ✅ | ✅ | ✅ | ✅ | ✅ | Enterprise open-source + plugins |
-| **DBackup** | Open Source | Node.js/Docker | ✅ | ❌ | ✅ | ✅ | ✅ | Modern multi-DB UI + RBAC |
-| **Portabase** | Open Source | Docker/K8s | ✅ | ❌ | ✅ | ✅ | ✅ | French-governed + encryption |
-| **pgBackRest** | Open Source | C | ❌ | ❌ | ✅ | ❌ | ✅ | PostgreSQL production standard |
-| **Percona XtraBackup** | GPL-2.0 | C++ | ❌ | ❌ | ❌ | ✅ MySQL | ✅ | MySQL hot backup standard |
+Below is an overview of leading commercial SaaS and enterprise data protection platforms for relational databases, ranked in descending order by company valuation / annual revenue scale:
+
+| 🏢 Platform | 💰 Company Valuation / Revenue | 🏷️ Specific Starting Pricing | 🎁 Free Tier / Free Trial Limits | 🗄️ Supported RDBMS Engines | ☁️ Cloud & Architecture Highlights |
+| :--- | :--- | :--- | :--- | :--- | :--- |
+| **[Veeam Backup & Replication](https://www.veeam.com/)** | **~$1.5B+ ARR** (Valued at ~$5B+, Insight Partners) | **$1,020/year** (Veeam Data Platform Foundation, 10-workload bundle ~$102/workload/yr) | **Community Edition:** Free forever for up to **10 workloads/instances**; 30-day full-feature trial | SQL Server, PostgreSQL, Oracle RMAN, SAP HANA, IBM Db2, Azure SQL, AWS RDS | Application-consistent snapshots, certified Oracle SBT and SAP HANA backends, immutable Linux repositories. |
+| **[Commvault Cloud](https://www.commvault.com/)** | **~$3.9B Market Cap** (NASDAQ: CVLT, ~$890M+ ARR) | **~$3.50/workload/month** (or ~$42/workload/year base; AWS Marketplace starting tier) | **30-day free trial** with full enterprise feature set (up to 5 TB protected data) | 50+ database engines including Oracle, MS SQL Server, PostgreSQL, MySQL, MariaDB, SAP HANA, Azure SQL | Metallic-powered cyber resilience, IntelliSnap hardware integration, multi-cloud S3/Azure air-gapped storage. |
+| **[Rubrik Database Protection](https://www.rubrik.com/)** | **~$8.5B Market Cap** (NYSE: RBRK, ~$800M+ ARR) | **~$2,500/node/year** (Enterprise Pro Edition base subscription) | **30-day proof-of-concept (PoC) / free trial** via guided cloud lab or virtual appliance | Oracle RAC/ASM, Microsoft SQL Server, PostgreSQL, MySQL, SAP HANA | Zero Trust Data Security, immutable append-only filesystem (Atlas), instant Live Mount recovery, native VSS. |
+| **[Cohesity Database Protection](https://www.cohesity.com/)** | **~$7.0B Valuation** (Post-Veritas Data Protection acquisition) | **~$1,800/node/year** (Base DataProtect software licensing tier) | **30-day free trial** of Cohesity DataProtect as a Service (hosted cloud environment) | Oracle Database (RMAN certified), Microsoft SQL Server, SAP HANA, PostgreSQL | Hyper-converged secondary storage, instant mass restore, multi-cloud automated tiering and cyber scanning. |
+| **[Druva Data Resiliance Cloud](https://www.druva.com/)** | **~$2.0B Valuation** (~$250M+ ARR) | **$2.50 per 100 GB/month** (~$0.025/GB/mo on AWS Marketplace starting tier) | **30-day free trial** with up to **1 TB of AWS cloud backup storage** included | Microsoft SQL Server, SAP HANA, Oracle (hybrid), AWS RDS Aurora/PostgreSQL | 100% serverless SaaS built natively on AWS, automated 5–120 minute transaction log backups, air-gapped storage. |
+| **[Bacula Enterprise](https://www.baculasystems.com/)** | **~$50M Valuation** (Privately held, Bacula Systems) | **$2,995/year** (Bacula Enterprise Standard subscription tier for up to 20 clients) | **30-day free trial** of Bacula Enterprise with selected database plugins (Oracle, PostgreSQL, MySQL) | MySQL/MariaDB (Percona XtraBackup & Mariabackup), PostgreSQL, Oracle RMAN, MS SQL Server | Enterprise open-core architecture, no data volume surcharges, point-in-time binary log recovery. |
+
+---
+
+## 💻 Open-Source Database Backup Solutions
+
+The open-source ecosystem offers powerful options ranging from versatile full-stack multi-database managers to engine-specific continuous archiving and hot-backup tools. The tools below are ordered in **descending order by GitHub star count**:
+
+### 1. 📦 [Backup](https://github.com/backup/backup)
+[![GitHub stars](https://img.shields.io/github/stars/backup/backup?style=social&color=white)](https://github.com/backup/backup/stargazers)
+* **GitHub Repository:** [backup/backup](https://github.com/backup/backup)
+* **Tech Stack:** Ruby / CLI
+* **License:** MIT License
+* **Supported Databases:** PostgreSQL, MySQL, SQLite, Redis, MongoDB
+* **Cloud & Storage Targets:** Amazon S3, Google Cloud Storage, Microsoft Azure Blob, Dropbox, SFTP, SCP, FTP, RSync, Local
+* **Overview:** Backup is an easy, full-stack backup orchestration tool for UNIX-like operating systems. It provides an intuitive Domain Specific Language (DSL) to define database dumps, cycler/retention schedules, on-the-fly encryption (OpenSSL, GPG), and multi-cloud uploads in a streamlined workflow.
+
+---
+
+### 2. 🐘 [pgBackRest](https://github.com/pgbackrest/pgbackrest)
+[![GitHub stars](https://img.shields.io/github/stars/pgbackrest/pgbackrest?style=social&color=white)](https://github.com/pgbackrest/pgbackrest/stargazers)
+* **GitHub Repository:** [pgbackrest/pgbackrest](https://github.com/pgbackrest/pgbackrest)
+* **Tech Stack:** C
+* **License:** MIT License
+* **Supported Databases:** PostgreSQL (9.3 through 17+)
+* **Cloud & Storage Targets:** Amazon S3 (and S3-compatible: MinIO, Ceph), Google Cloud Storage (GCS), Azure Blob Storage, POSIX / NFS
+* **Overview:** The de facto gold standard for mission-critical PostgreSQL database backups in enterprise environments. Designed to scale seamlessly to multi-terabyte clusters, pgBackRest delivers high-performance parallel streaming, delta restores, page checksum verification, async WAL archiving, multi-repository backup replication, and native client-side encryption.
+
+---
+
+### 3. 🚀 [WAL-G](https://github.com/wal-g/wal-g)
+[![GitHub stars](https://img.shields.io/github/stars/wal-g/wal-g?style=social&color=white)](https://github.com/wal-g/wal-g/stargazers)
+* **GitHub Repository:** [wal-g/wal-g](https://github.com/wal-g/wal-g)
+* **Tech Stack:** Go
+* **License:** Apache-2.0 License
+* **Supported Databases:** PostgreSQL, MySQL, MariaDB, Microsoft SQL Server, Redis, Greenplum, FoundationDB
+* **Cloud & Storage Targets:** AWS S3, Google Cloud Storage, Azure Blob Storage, Swift, WebDAV, Local Filesystem
+* **Overview:** The successor to PostgreSQL's widely used WAL-E tool, rewritten entirely in Go for maximum concurrency and cloud performance. WAL-G features multi-database support, multi-threaded LZ4/snappy/zstandard compression, point-in-time recovery (PITR), delta delta-backups, and low-latency continuous write-ahead log (WAL) archiving directly to object stores.
+
+---
+
+### 4. 🍸 [Barman](https://github.com/EnterpriseDB/barman)
+[![GitHub stars](https://img.shields.io/github/stars/EnterpriseDB/barman?style=social&color=white)](https://github.com/EnterpriseDB/barman/stargazers)
+* **GitHub Repository:** [EnterpriseDB/barman](https://github.com/EnterpriseDB/barman)
+* **Tech Stack:** Python
+* **License:** GNU GPL v3.0
+* **Supported Databases:** PostgreSQL
+* **Cloud & Storage Targets:** Amazon S3, Azure Blob Storage, Local Disk, Remote SSH Servers
+* **Overview:** Maintained by EnterpriseDB (EDB), Barman (Backup and Recovery Manager) is an enterprise-grade administration utility for remote disaster recovery of PostgreSQL topologies. It excels in zero-data-loss streaming WAL replication, backup validation, automated retention policies, and geographical disaster recovery standby orchestration.
+
+---
+
+### 5. ⚡ [MyDumper](https://github.com/mydumper/mydumper)
+[![GitHub stars](https://img.shields.io/github/stars/mydumper/mydumper?style=social&color=white)](https://github.com/mydumper/mydumper/stargazers)
+* **GitHub Repository:** [mydumper/mydumper](https://github.com/mydumper/mydumper)
+* **Tech Stack:** C / CMake
+* **License:** GNU GPL v3.0
+* **Supported Databases:** MySQL, MariaDB, Percona Server, TiDB
+* **Cloud & Storage Targets:** AWS S3, Google Cloud Storage, Azure Blob Storage, Local / Shared Filesystems
+* **Overview:** An extremely fast, multi-threaded alternative to mysqldump. MyDumper provides parallel table and row chunk dumping, consistent snapshotting using modern transaction mechanisms, fast multi-threaded restore via `myloader`, inline stream compression (ZSTD, GZIP), and direct cloud storage dumping.
+
+---
+
+### 6. 🚪 [Portabase](https://github.com/Portabase/portabase)
+[![GitHub stars](https://img.shields.io/github/stars/Portabase/portabase?style=social&color=white)](https://github.com/Portabase/portabase/stargazers)
+* **GitHub Repository:** [Portabase/portabase](https://github.com/Portabase/portabase)
+* **Tech Stack:** TypeScript / Docker / Go / CLI
+* **License:** AGPL-3.0 License (French Non-Profit Association)
+* **Supported Databases:** PostgreSQL, MySQL, MariaDB, Microsoft SQL Server, SQLite, Firebird, Redis, MongoDB
+* **Cloud & Storage Targets:** AWS S3, Cloudflare R2, Google Drive, Azure Blob, SFTP, Rclone
+* **Overview:** A modern self-hosted database backup and restore automation web dashboard and daemon. Features AES-GCM zero-trust encryption, GFS (Grandfather-Father-Son) retention policies, an integrated Model Context Protocol (MCP) server, REST API, agent-based remote database connectors, and webhook alerts (Discord, Slack, Telegram).
+
+---
+
+### 7. 🛠️ [Percona XtraBackup](https://github.com/percona/percona-xtrabackup)
+[![GitHub stars](https://img.shields.io/github/stars/percona/percona-xtrabackup?style=social&color=white)](https://github.com/percona/percona-xtrabackup/stargazers)
+* **GitHub Repository:** [percona/percona-xtrabackup](https://github.com/percona/percona-xtrabackup)
+* **Tech Stack:** C / C++
+* **License:** GNU GPL v2.0
+* **Supported Databases:** MySQL, Percona Server for MySQL
+* **Cloud & Storage Targets:** Cloud object storage via xbcloud (AWS S3, MinIO, Azure Blob, Swift)
+* **Overview:** The industry gold-standard open-source hot backup utility for MySQL and Percona Server. It performs non-blocking, transactionally consistent physical backups of InnoDB and XtraDB storage engines without locking application read/write queries during execution.
+
+---
+
+### 8. 🐳 [Docker PostgreSQL Backup Local](https://github.com/prodrigestivill/docker-postgres-backup-local)
+[![GitHub stars](https://img.shields.io/github/stars/prodrigestivill/docker-postgres-backup-local?style=social&color=white)](https://github.com/prodrigestivill/docker-postgres-backup-local/stargazers)
+* **GitHub Repository:** [prodrigestivill/docker-postgres-backup-local](https://github.com/prodrigestivill/docker-postgres-backup-local)
+* **Tech Stack:** Shell / Docker
+* **License:** MIT License
+* **Supported Databases:** PostgreSQL
+* **Cloud & Storage Targets:** Local / Docker Volumes, S3 (via sidecar / rclone integration)
+* **Overview:** A lightweight, containerized cron-based PostgreSQL backup utility designed for Docker Compose and Swarm stacks. It automates periodic schema and database dumps, multi-tier backup rotation (hourly, daily, weekly, monthly), and compression out of the box with zero external dependencies.
+
+---
+
+### 9. 🦭 [Mariabackup](https://mariadb.com/kb/en/mariabackup-overview/)
+[![GitHub stars](https://img.shields.io/github/stars/MariaDB/mariadb-docker?style=social&color=white)](https://github.com/MariaDB/mariadb-docker/stargazers)
+* **Upstream Project:** [MariaDB/server](https://github.com/MariaDB/server) (Container reference: [MariaDB/mariadb-docker](https://github.com/MariaDB/mariadb-docker))
+* **Tech Stack:** C / C++
+* **License:** GNU GPL v2.0
+* **Supported Databases:** MariaDB (10.1+ through latest releases)
+* **Cloud & Storage Targets:** S3 compatible storage via xbcloud / pipe streaming
+* **Overview:** Built into official MariaDB distributions as the primary physical hot backup utility. Originally forked from Percona XtraBackup, it is tailored specifically for MariaDB's InnoDB, Aria, and MyRocks storage engines, enabling non-blocking physical snapshots and point-in-time roll-forwards.
+
+---
+
+### 10. 🔒 [DBackup](https://github.com/Skyfay/DBackup)
+[![GitHub stars](https://img.shields.io/github/stars/Skyfay/DBackup?style=social&color=white)](https://github.com/Skyfay/DBackup/stargazers)
+* **GitHub Repository:** [Skyfay/DBackup](https://github.com/Skyfay/DBackup)
+* **Tech Stack:** Node.js / Docker / Web UI
+* **License:** MIT License
+* **Supported Databases:** PostgreSQL, MySQL, MariaDB, Microsoft SQL Server, Azure SQL Edge, SQLite, Redis, MongoDB
+* **Cloud & Storage Targets:** AWS S3, Cloudflare R2, MinIO, SFTP, FTP, SMB, Dropbox, Google Drive
+* **Overview:** A self-hosted database backup automation platform featuring an intuitive Web UI, granular Role-Based Access Control (RBAC), Passkey/2FA security, encrypted credential vault, incremental filesystem dumps, and direct one-click database restores.
+
+---
+
+### 11. 🇳🇱 [Holland Backup](https://github.com/holland-backup/holland)
+[![GitHub stars](https://img.shields.io/github/stars/holland-backup/holland?style=social&color=white)](https://github.com/holland-backup/holland/stargazers)
+* **GitHub Repository:** [holland-backup/holland](https://github.com/holland-backup/holland)
+* **Tech Stack:** Python
+* **License:** BSD-3-Clause
+* **Supported Databases:** MySQL, MariaDB, PostgreSQL
+* **Cloud & Storage Targets:** Local storage, S3 and remote targets via plugin hooks
+* **Overview:** A modular, plugin-based backup framework originally developed by Rackspace. Holland standardizes database backup configurations across heterogeneous environments, orchestrating native dump utilities (mysqldump, pg_dump, mydumper) through unified configuration sets.
+
+---
+
+## 🔍 Comprehensive Comparison Matrix
+
+| 🛠️ Platform / Tool | 📜 Type / License | 💻 Primary Stack | 🐬 MySQL / MariaDB | 🐘 PostgreSQL | 💼 Oracle DB | 🪟 SQL Server | ☁️ Native Cloud Storage | 🎯 Best Use Case |
+| :--- | :--- | :--- | :---: | :---: | :---: | :---: | :---: | :--- |
+| **Veeam Data Platform** | Enterprise Commercial | C++ / .NET / Cloud | ✅ *(Plugins)* | ✅ | ✅ *(RMAN)* | ✅ | ✅ AWS / Azure / GCP | Large heterogeneous enterprise estates |
+| **Commvault Cloud** | Enterprise Commercial | Java / C++ / SaaS | ✅ | ✅ | ✅ | ✅ | ✅ Air-Gapped Cloud | Global compliance & 50+ DB engines |
+| **Rubrik Security Cloud** | Enterprise Commercial | Appliance / SaaS | ✅ | ✅ | ✅ *(RAC/ASM)* | ✅ *(VSS)* | ✅ Zero Trust Vault | Ransomware air-gap & instant mount |
+| **Cohesity DataProtect** | Enterprise Commercial | Appliance / SaaS | ❌ | ✅ | ✅ *(RMAN)* | ✅ | ✅ Multi-cloud tiering | Instant recovery & mass restoration |
+| **Druva Cloud** | Enterprise SaaS | AWS Serverless | ❌ | ✅ *(RDS)* | (Hybrid) | ✅ *(Native)* | ✅ AWS Integrated | 100% cloud-native serverless SQL backup |
+| **Bacula Enterprise** | Commercial Open-Core | C / C++ | ✅ *(XtraBackup)* | ✅ *(Hot WAL)* | ✅ *(RMAN)* | ✅ *(VSS)* | ✅ Multi-cloud / Tape | Data center environments without volume fees |
+| **Backup (Ruby)** | Open Source (MIT) | Ruby | ✅ | ✅ | ❌ | ❌ | ✅ S3 / GCS / Azure | Scripted multi-cloud Unix database backups |
+| **pgBackRest** | Open Source (MIT) | C | ❌ | ✅ | ❌ | ❌ | ✅ S3 / GCS / Azure | Production high-scale PostgreSQL clusters |
+| **WAL-G** | Open Source (Apache-2) | Go | ✅ | ✅ | ❌ | ✅ | ✅ S3 / GCS / Azure | High-speed continuous WAL streaming & PITR |
+| **Barman** | Open Source (GPL-3) | Python | ❌ | ✅ | ❌ | ❌ | ✅ S3 / Azure / SSH | Managed remote PostgreSQL disaster recovery |
+| **MyDumper** | Open Source (GPL-3) | C / CMake | ✅ | ❌ | ❌ | ❌ | ✅ S3 / GCS / Azure | High-throughput parallel MySQL dump & restore |
+| **Portabase** | Open Source (AGPL-3) | TypeScript / Go | ✅ | ✅ | ❌ | ✅ | ✅ S3 / GDrive / Rclone | Self-hosted multi-DB web UI with MCP |
+| **Percona XtraBackup** | Open Source (GPL-2) | C / C++ | ✅ *(MySQL)* | ❌ | ❌ | ❌ | ✅ xbcloud S3 / Azure | Non-locking physical hot backups of MySQL |
+| **Docker Postgres Backup**| Open Source (MIT) | Shell / Docker | ❌ | ✅ | ❌ | ❌ | ✅ Volumes / S3 | Lightweight containerized Postgres cron backups |
+| **Mariabackup** | Open Source (GPL-2) | C / C++ | ✅ *(MariaDB)* | ❌ | ❌ | ❌ | ✅ S3 via xbstream | Native hot backup for MariaDB servers |
+| **DBackup** | Open Source (MIT) | Node.js / Docker | ✅ | ✅ | ❌ | ✅ | ✅ S3 / SFTP / SMB | Self-hosted multi-DB manager with RBAC |
+| **Holland Backup** | Open Source (BSD-3) | Python | ✅ | ✅ | ❌ | ❌ | ⚠️ Scripted / Local | Pluggable Linux backup automation framework |
+
+---
+
+## 💖 Support & Sponsorship
+
+If this curated repository saved you time, helped architect your disaster recovery strategy, or introduced you to your new favorite backup tool, please consider showing your support:
+
+- 🌟 **Star this repository** on GitHub to improve visibility for the community!
+- 🍴 **Fork the repo** to contribute your own configurations, scripts, and tool recommendations.
+- 📢 **Share with peers and DevOps / DBA groups** on LinkedIn, X (Twitter), Reddit, and Discord.
+- ☕ **Buy a coffee or become a sponsor:** Support continuous maintenance and open-source research directly via the [GitHub Sponsor Dashboard](https://github.com/sponsors/ishandutta2007).
+
+Your sponsorship directly powers ongoing curation, community benchmarks, and maintenance of developer-first resources. Thank you for your support! 🙏
+
+---
+
+## 📈 Star History
+
+[![Star History Chart](https://www.star-history.com/svg?repos=ishandutta2007/Awesome-Relational-Database-Cloud-Backup&type=date&legend=top-left)](https://www.star-history.com/#ishandutta2007/Awesome-Relational-Database-Cloud-Backup&type=date&legend=top-left)
 
 ---
 
 ## 🤝 Contributing
 
-Contributions are welcome! If you know of an open-source Relational Database Cloud Backup tool that should be listed here, please open a pull request with:
+Contributions, issues, and feature suggestions are warmly welcomed! 
 
-- Project name and URL
-- Brief description (1–2 sentences)
-- Stack and license
-- Why it stands out
+If you know of an enterprise SaaS platform or open-source relational database backup utility that should be featured in this list:
+1. Fork the repository.
+2. Create a new descriptive branch (`git checkout -b feature/add-new-tool`).
+3. Add the project details with accurate licensing, supported relational engines, star counts, and target storage.
+4. Open a well-documented Pull Request.
 
-Please ensure the project is actively maintained (releases within the last 12 months) and genuinely open-source. Note that the open-source ecosystem **splits** between **full multi-database backup automation platforms** (DBackup, Portabase) that provide a unified UI and scheduling across many engines, and **database-specific hot backup tools** (pgBackRest for PostgreSQL, Percona XtraBackup for MySQL, mariabackup for MariaDB) that are the production standards for their respective engines. **DBackup** and **Portabase** are the most notable open-source efforts to provide a commercial-like management experience across heterogeneous database environments [citation:6][citation:14]. Commercial platforms like Veeam and Commvault remain far more capable for enterprise-scale Oracle RMAN, SAP HANA, and hybrid cloud workloads with certified plug-ins and cyber recovery features [citation:3][citation:10].
+Please ensure any project submitted is actively maintained with valid licensing and active release cycles within the past 12 months.
 
 ---
 
 ## 📄 License
 
-This list is released under CC0 1.0 Universal (Public Domain). The software projects listed retain their respective licenses.
-
----
-
-⭐ **If this list helped you discover a useful tool, please star the repo!** ⭐
+This curated collection is made available under the [Creative Commons Zero v1.0 Universal (CC0 1.0) Public Domain Dedication](https://creativecommons.org/publicdomain/zero/1.0/). Individual software products, tools, and brand trademarks mentioned belong to their respective copyright holders.
